@@ -1,0 +1,37 @@
+#!/bin/bash
+
+
+select type in komatsu hirayama kawami akazawa ; do
+
+ case "$type" in
+  komatsu)
+   echo "komatsu love"
+
+  ;;
+  hirayama)
+   echo "hirayama love"
+
+
+  ;;
+  kawami)
+   echo "kawami love"
+
+  ;;
+
+  akazawa)
+   echo "akazawa love"
+
+  ;;
+
+  *)
+
+   echo "fuck!!"
+   break
+
+
+  esac
+
+
+
+
+done

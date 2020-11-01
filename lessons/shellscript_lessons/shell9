@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+while :  ;do
+
+ read -p "name:" name
+
+ if [[ $name == "seigo" ]] ; then
+
+    break
+
+ fi
+
+ echo $name
+
+
+done

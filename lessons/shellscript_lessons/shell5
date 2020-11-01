@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+if [[ -d $0   ]] ; then
+
+echo "exists!!"
+
+
+fi
+
+
+
+read -p "num:" num
+
+
+if (( $num > 10 )) ; then
+
+
+echo "good!!"
+
+
+fi

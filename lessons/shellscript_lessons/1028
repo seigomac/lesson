@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+colors=(red blue pink)
+
+read -p "始めます" start
+
+echo "$start"
+
+
+
+echo ${colors[0]}
+
+
+echo ${colors[2]}
+
+
+echo ${colors[@]}
+
+echo ${#colors[@]}

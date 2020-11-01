@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "What is name " name 
+
+echo "Hello!  $name Nice to meet to you "
+
+
