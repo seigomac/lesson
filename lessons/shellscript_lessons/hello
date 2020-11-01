@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+#変数
+
+#readonly name="seigo"
+
+#name="akazawa"
+
+#echo "hello $name"
+#echo 'hello $name'
+
+#echo "$name" ; echo "${name}san"
+
+read -p "名前を入力してください:" name
+
+echo "$name"
+
+
+read -p "名前と年齢と出身を述べよ：" name age from
+
+echo $name
+echo $age
+echo $from

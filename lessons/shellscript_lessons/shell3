@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+
+
+read -p "name:" name
+
+if test "$name" = "seigo"
+
+# if [ "$name" = "seigo" ]
+
+
+then
+
+ echo "Hello $name"
+
+elif [ "$name" = "nissy" ]
+then
+
+ echo "Love $name"
+
+else
+
+  echo "fuck!"
+
+fi

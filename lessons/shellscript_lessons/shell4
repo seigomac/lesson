@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+read -p "name:" name
+
+
+if [[ $name =~ ^n  ]] ; then
+
+echo "nissy?"
+
+
+elif [[ $name =~ ^s ]] ; then
+
+echo "seigo??"
+
+else
+
+echo "who??"
+
+
+fi
+
+
+
+
+
+ 

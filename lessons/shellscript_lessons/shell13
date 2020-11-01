@@ -1,0 +1,39 @@
+#!/bin/bash
+
+
+
+test() {
+
+  # echo "hello   $1!!"
+
+local name="seigo"
+
+if [[ "$1" == "seigo" ]] ; then
+
+
+  return 0
+
+else
+
+  return 1
+
+fi
+
+
+
+}
+
+test seigo
+
+echo $?
+
+test nissy
+
+
+echo $?
+
+echo $name
+
+# 変数はどこからでもアクセスする子kとができる
+
+# local を指定して上げると外からアクセスできないように設定できる

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# case文　ーー信号機のようなシグナルカラーを聞くプログラムーー
+
+
+read -p "What is signal color? " color
+
+case "$color" in
+red)
+
+echo "stop"
+
+;;
+blue)
+
+echo "go"
+
+;;
+yellow)
+
+echo "caution"
+
+;;
+
+*) #←なににも当てはまらなかった場合（その他）
+
+echo "wrong signal"
+
+esac

@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#for文を書いていく
+
+
+for i in {1..10}; do
+
+ echo $i
+
+done
+
+for (( n=1; n<10;  n++ )) ; do
+
+
+echo $n
+
+
+done
+
+aaa=( nissy uno shinjiro)
+
+
+for i in ${aaa[@]} ; do
+
+
+echo $i
+
+
+done
+
+
+
+
+
+
